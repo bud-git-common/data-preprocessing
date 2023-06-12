@@ -1,0 +1,459 @@
+{
+    "template_dataset": {
+        "category": [],
+        "legaldoc_templates": {
+            "category": [],
+            "English legal drafts format": {
+                "category": [],
+                "Acknowledgement": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Adoption": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Affidavit": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Agreement": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Application": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Appointment": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Appranticeship": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Arbitration": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Assignment": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Banking": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Bond": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Civil Pleadings": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Classification Of Offences": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Company": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Composition deed": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Consumer protection act": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Conveyancing": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Copyright": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Criminal Pleading": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Custody of Child": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Easements": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Exchange": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Franchisee": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Gift": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Guarantee": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Hindu Marriage Act, Divorce, Maintenance, Restitution of Conjugal Rights": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Hire-Purchase": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Income Tax": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Indemnity": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Information Technology": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Infrastructure, development and financing": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Labour": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Lease Financing": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Matrimonial": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Medical Form": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Memorandum of Understanding": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Miscellaneous deeds": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Mortgage, Pledge , Hypothecation and Security Document": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Motor Vehicle Act": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Negotiable Instrument": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Notice": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Partition": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Petition": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Plaint and Written statement": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Pleadings": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Power of Attorney": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Principle": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Release": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Rent": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Sale": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Special Leave Petition": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Specific Relief Act": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Trust, Wakf society": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Vakalatnama": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Will": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                },
+                "Writ": {
+                    "category": [],
+                    "": {
+                        "category": {
+                            "category": []
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
