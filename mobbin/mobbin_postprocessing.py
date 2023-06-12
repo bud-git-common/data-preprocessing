@@ -39,14 +39,14 @@ def group_json_data(json_data):
     return grouped_data
 
 # Read JSON data from file
-with open('/Users/sreelekshmyselvin/Downloads/mobbin_data/data/mobbin_android.json') as file:
+with open('/Users/sreelekshmyselvin/Downloads/mobbin_data/data/mobbin_web.json') as file:
     json_data = json.load(file)
 
 # Group the JSON data
 grouped_data = group_json_data(json_data)
 
 # Save the grouped data as a new JSON file
-with open('/Users/sreelekshmyselvin/Downloads/mobbin_data/data/mobbin.json', 'w') as file:
+with open('/Users/sreelekshmyselvin/Downloads/mobbin_data/data/mobbin_web_final.json', 'w') as file:
     json.dump(grouped_data, file, indent=2)
 
-print("Grouped data saved as 'mobbin.json'")
+print("Grouped data saved as json")

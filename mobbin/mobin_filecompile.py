@@ -37,6 +37,6 @@ def process_excel_files(source_folder, output_file):
 
 
 # Example usage
-source_folder = "/Users/sreelekshmyselvin/Downloads/mobbin_data"
-output_file = "/Users/sreelekshmyselvin/Downloads/mobbin_data/data/mobbin_android.json"
+source_folder = "/Users/sreelekshmyselvin/Downloads/mobbin_data/web"
+output_file = "/Users/sreelekshmyselvin/Downloads/mobbin_data/data/mobbin_web.json"
 process_excel_files(source_folder, output_file)
