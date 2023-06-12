@@ -30,7 +30,7 @@ def scrapper_recipes(file_path):
                     print("Recipe Counter:", recipe_counter)
 
                     # Save the data as JSON after each recipe is fetched
-                    with open("/content/recipies_final_data.json", 'w') as json_file:
+                    with open("../dataset_folder/recipie_final_data.json", 'w') as json_file:
                         json.dump(data_scrapped, json_file, indent=4)
 
                 except Exception as e:
@@ -40,5 +40,5 @@ def scrapper_recipes(file_path):
     print("Scraping completed.")
 
 
-file_path = "/content/2.json"  # Replace with the path to your JSON file
+file_path = "../dataset_folder/recipie_links.json"  # Replace with the path to your JSON file
 data_scrapped = scrapper_recipes(file_path)
