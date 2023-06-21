@@ -1,12 +1,14 @@
 import json
-from pymongo import MongoClient
-
+import pymongo
+import certifi
+ca = certifi.where()
 
 def insert_json_items(json_file, collection_name):
     # Connect to MongoDB
-    client = MongoClient('mongodb+srv://inference_user:PrNLLcDRhEz4en9Q@budecosystem.qig24.mongodb.net/?retryWrites=true&w=majority')
+    uri = 'mongodb+srv://inference_user:PrNLLcDRhEz4en9Q@budecosystem.qig24.mongodb.net/?retryWrites=true&w=majority'
+    client = pymongo.MongoClient(uri,tlsCAFile=ca)
     db = client['BudCollector']
-    collection = db["sree_test"]
+    collection = db[collection_name]
 
     # Load JSON data from file
     with open(json_file) as file:
@@ -23,6 +25,6 @@ def insert_json_items(json_file, collection_name):
 
 
 # Usage example
-json_file_path = "/Users/sreelekshmyselvin/Downloads/mobbin_data/data/mobbin.json"
-collection_name = 'mobbin_android_processed'
+json_file_path = "../dataset_folder/screenlane.json"
+collection_name = 'screenlane_data'
 insert_json_items(json_file_path, collection_name)

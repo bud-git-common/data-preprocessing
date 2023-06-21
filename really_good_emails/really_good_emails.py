@@ -1,7 +1,7 @@
 import requests
 import os
 import json
-
+import time
 
 def download_image(url, destination_folder):
     # Create the destination folder if it doesn't exist
@@ -9,14 +9,14 @@ def download_image(url, destination_folder):
 
     # Extract the image file name from the URL
     filename = url.split("/")[-1]
-    print(url)
+
     # Build the complete path to save the image
     destination_path = os.path.join(destination_folder, filename)
 
     try:
         # Send a GET request to the image URL
         response = requests.get(url, stream=True)
-
+        time.sleep(10)
         # Check if the request was successful
         if response.status_code == 200:
             # Open the destination file and write the image data to it
@@ -34,9 +34,16 @@ def download_image(url, destination_folder):
     return None
 
 
+def save_failed_url(url, output_file_path):
+    # Save the failed URL to a new text file
+    with open(output_file_path, "a") as file:
+        file.write(url + "\n")
+
+
 # Example usage
-json_file_path = "/Users/sreelekshmyselvin/Downloads/really_good_emails/really_good_emails_images.json"
-destination_folder = "/Users/sreelekshmyselvin/Downloads/really_good_emails/images"  # Specify the folder where you want to save the images
+json_file_path = "../dataset_folder/really_good_emails/really_good_emails_images.json"
+destination_folder = "../dataset_folder/really_good_emails/really_good_emails/images"  # Specify the folder where you want to save the images
+failed_urls_file_path = "../dataset_folder/really_good_emails/failed_urls.txt"
 
 try:
     # Open the JSON file
@@ -60,9 +67,12 @@ try:
             if downloaded_filename:
                 # Add the downloaded file name to the dictionary
                 data["image_name"] = downloaded_filename
+            else:
+                # Save the failed URL to the text file
+                save_failed_url(image_url, failed_urls_file_path)
 
     # Create a new JSON file with the updated data
-    new_json_file_path = "/content/output.json"
+    new_json_file_path = "../dataset_folder/really_good_emails/really_good_emails_output.json"
     with open(new_json_file_path, "w") as new_file:
         json.dump(data_list, new_file, indent=4)
     print("JSON file updated with the downloaded file names.")
