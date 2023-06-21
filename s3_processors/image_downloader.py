@@ -1,6 +1,6 @@
 import boto3
-access_key_id = 'AKIA4CKBAUIL6DB7U3Z4'
-secret_access_key = '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'
+access_key_id = ''
+secret_access_key = ''
 
 def download_images_from_s3(bucket_name, folder_path, image_names, local_folder):
     s3_client = boto3.client('s3', aws_access_key_id=access_key_id, aws_secret_access_key=secret_access_key)
